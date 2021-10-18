@@ -1,0 +1,154 @@
+*{
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body{
+    background-color: #000;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
+h1{
+    display: inline-block;
+    color: #6649b8;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+h1:hover{
+    color: #fff;
+}
+
+li{
+    color: #6649b8;
+}
+
+.navbar_div{ 
+    background-color: #070c20;
+    margin-top: 0px;
+}
+
+.navbar_ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar_item{
+    display: inline;
+    text-align: center;
+}
+
+.navbar_item:hover{
+    background-color: #111
+}
+
+.logo_div{
+    width: 150px;
+}
+
+.logo_div:hover{
+    background-color: #111
+}
+
+.container{
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin: 200px 200px;
+}
+
+
+.inferior{
+    padding-top: 1rem;
+    background-color: #070c20;
+    width: 100%;
+    margin: 0;
+}
+
+.tecnologys_div{
+    padding-top: 30px;
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.form_div{
+    border: 2px solid #27135c;
+    padding: 20px;  
+    width: 40em;
+    margin: 0 auto;
+    background-color: #111;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+.content{
+    display: inline-flex;
+    padding: auto;
+    text-align: right;
+}
+
+.pr1407_img{
+    border: 2px solid #27135c;
+    border-radius: 50%;
+    display: block;
+    float: right;
+    width: 250px;
+}
+
+.div_img{
+    float: right;
+    position: relative;
+    padding-left: 20px;
+    top: -60px;
+}
+
+textarea{
+    border: 2px solid #27135c;
+    background-color: #111;
+    border-radius: 1em;
+    padding: 20px;
+    width: 40em;
+    resize: none;
+}
+
+.button{
+    position: relative;
+    top: -2em;
+    padding: 10px;
+    text-align: center;
+    width: 8em;
+    height: 4em;
+    border: 2px solid #27135c;
+    background-color: #111;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+
+.img_gif{
+    padding-top: 30px;
+    width: 60%
+}
+
+.form-group{
+    padding-top: 30px
+}
