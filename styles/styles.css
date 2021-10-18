@@ -7,7 +7,6 @@
 
 body{
     background-color: #000;
-    
 }
 
 a {
@@ -16,7 +15,7 @@ a {
 
 body::-webkit-scrollbar {
     width: 0.25rem;
-  }
+}
   
 body::-webkit-scrollbar-track {
     background: #1e1e24;
@@ -47,22 +46,30 @@ li{
 }
 
 .navbar_ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
+    overflow: hidden;
 }
 
 .navbar_item{
-    display: inline;
+    display: inline-block;
     text-align: center;
+    padding: 12px;
 }
 
 .navbar_item:hover{
     background-color: #111
 }
 
+.nav2{
+    display: inline;
+    position: relative;
+    top: -10px
+}
+
 .logo_div{
+    position: relative;
     width: 150px;
+    top: 10px ;
 }
 
 .logo_div:hover{
@@ -71,8 +78,6 @@ li{
 
 .container{
     text-align: center;
-    margin-right: 25%;
-    margin-left: 25%;
     margin: 200px 200px;
 }
 
@@ -124,16 +129,27 @@ li{
 
 textarea{
     border: 2px solid #27135c;
+    padding: 20px;  
+    width: 60em;
+    margin: 0 auto;
     background-color: #111;
     border-radius: 1em;
-    padding: 20px;
-    width: 40em;
+    margin-bottom: 2em;
     resize: none;
 }
 
+textarea:focus{
+    outline: none;
+    border: 2px solid #1004bd;
+}
+
+.form_div:focus{
+    outline: none;
+    border: 2px solid #1004bd;
+
+}
+
 .button{
-    position: relative;
-    top: -2em;
     padding: 10px;
     text-align: center;
     width: 8em;

@@ -14,17 +14,14 @@
 
 <body>
     <header>
-        <div>
-            <nav class="navbar_div">
-                <ul class="navbar_ul">
-                    <li class="navbar_item"><a href="index.html"><img class="logo_div" src="img/logo.png" alt=""></a>
-                    </li>
-                    <li class="navbar_item"><a href="index.html">Sobre mi</a></li>
-                    <li class="navbar_item"><a href="index.html">Conocimientos</a></li>
-                    <li class="navbar_item"><a href="index.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar_div">
+            <ul class="navbar_ul">
+                <li class="navbar_item"><a href="index.html"><img class="logo_div" src="img/logo.png" alt=""></a></li>
+                <li class="navbar_item nav2"><a href="#Sobremi">Sobre mi</a></li>
+                <li class="navbar_item nav2"><a href="#conocimiento">Conocimientos</a></li>
+                <li class="navbar_item nav2"><a href="#contactame">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
     <div>
@@ -33,7 +30,8 @@
                 <div>
                     <h1>Hola</h1>
                     <h2>Soy Pedro Ruiz</h2>
-                    <p>Estudiante de ingenieria de sistemas y desarrollo web.</p></div>
+                    <p>Estudiante de ingenieria de sistemas y desarrollo web.</p>
+                </div>
                 <div class="div_img">
                     <img class="pr1407_img" src="img/pr1407.jpg" alt="">
                 </div>
@@ -42,7 +40,7 @@
         <div class="container">
             <section>
                 <div>
-                    <h1>Sobre mi</h1>
+                    <h1 id="Sobremi">Sobre mi</h1>
                 </div>
                 <div>
                     <p> Hola! Mi nombre es Pedro Ruiz, aunque mas conocido por mi nickname pr1407, tengo 21 años y soyde
@@ -63,10 +61,11 @@
         <div class="container">
             <section>
                 <div>
-                    <h1>Conocimientos</h1>
+                    <h1 id="conocimiento">Conocimientos</h1>
                     <h2>Aqui algunas de las tecnologias/lenguajes que he aprendido y estoy estudiando recientemente</h2>
                     <p>
-                        Aunque recientemente he estado desarrollando mucho en tecnologias frontend y backend, <br> tambien he
+                        Aunque recientemente he estado desarrollando mucho en tecnologias frontend y backend, <br>
+                        tambien he
                         estado incursionando en la creacion/desarrollo de videojuegos.</p>
                 </div>
                 <div>
@@ -92,19 +91,19 @@
         <div class="container">
             <section>
                 <div class="contact">
-                    <h1>Contactame</h1>
+                    <h1 id="contactame">Contactame</h1>
                 </div>
                 <div>
-                    <p>Si tienes un proyecto en mente y estas interesado en trabajar conmigo puedes contactarme usando mis redes sociales o  llenando <br> 
-                        el siguiente formulario. Tambien siente libre tambien de darme tus opiniones acerca de mis proyectos</p>
+                    <p>Si tienes un proyecto en mente y estas interesado en trabajar conmigo puedes contactarme usando
+                        mis redes sociales o llenando <br>
+                        el siguiente formulario. Tambien siente libre tambien de darme tus opiniones acerca de mis
+                        proyectos</p>
                     <p>Prometo responderle en la brevedad posible</p>
                 </div>
                 <div class="form-group">
                     <form action="" method="get">
-                        <div>
-                            <input type="text" name="" id="" class="form_div" placeholder="Nombre">
-                            <input type="email" name="" id="" class="form_div" placeholder="Email">
-                        </div>
+                        <input type="text" name="" id="" class="form_div" placeholder="Nombre">
+                        <input type="email" name="" id="" class="form_div" placeholder="Email">
                         <textarea name="" id="" placeholder="Hableme sobre el proyecto" cols="30" rows="10"></textarea>
                         <input class="button" type="submit" value="Enviar">
                     </form>
