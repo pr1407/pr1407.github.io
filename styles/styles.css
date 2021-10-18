@@ -53,11 +53,14 @@ li{
 .navbar_item{
     display: inline-block;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
     padding: 12px;
 }
 
 .navbar_item:hover{
-    background-color: #111
+    background-color: #27135c
 }
 
 .nav2{
@@ -68,12 +71,11 @@ li{
 
 .logo_div{
     position: relative;
-    width: 150px;
-    top: 10px ;
+    width: 100px;
 }
 
 .logo_div:hover{
-    background-color: #111
+    background-color: #27135c
 }
 
 .container{
@@ -96,7 +98,15 @@ li{
     padding-left: 20px;
 }
 
+.form-group{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center
+}
+
 .form_div{
+    padding-top: 10px;
     border: 2px solid #27135c;
     padding: 20px;  
     width: 40em;
@@ -130,8 +140,7 @@ li{
 textarea{
     border: 2px solid #27135c;
     padding: 20px;  
-    width: 60em;
-    margin: 0 auto;
+    width: 40em;
     background-color: #111;
     border-radius: 1em;
     margin-bottom: 2em;
@@ -146,12 +155,12 @@ textarea:focus{
 .form_div:focus{
     outline: none;
     border: 2px solid #1004bd;
-
 }
 
 .button{
+    display: inline-flex;
+    justify-content:center;
     padding: 10px;
-    text-align: center;
     width: 8em;
     height: 4em;
     border: 2px solid #27135c;
@@ -162,7 +171,8 @@ textarea:focus{
 
 .img_gif{
     padding-top: 30px;
-    width: 60%
+    width: 740px;
+    height: 446px;
 }
 
 .form-group{
