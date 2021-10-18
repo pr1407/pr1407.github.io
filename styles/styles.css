@@ -80,9 +80,8 @@ li{
 
 .container{
     text-align: center;
-    margin: 200px 200px;
+    margin: 5em 2em;
 }
-
 
 .inferior{
     padding-top: 1rem;
@@ -117,7 +116,7 @@ li{
 }
 
 .content{
-    display: inline-flex;
+    display: inline-block;
     padding: auto;
     text-align: right;
 }
@@ -125,16 +124,14 @@ li{
 .pr1407_img{
     border: 2px solid #27135c;
     border-radius: 50%;
-    display: block;
-    float: right;
     width: 250px;
 }
 
+.div_intr{
+    display: block;
+}
 .div_img{
-    float: right;
-    position: relative;
-    padding-left: 20px;
-    top: -60px;
+    padding-top: 30px;
 }
 
 textarea{
@@ -170,9 +167,9 @@ textarea:focus{
 }
 
 .img_gif{
+    display: inline-block;
     padding-top: 30px;
-    width: 740px;
-    height: 446px;
+    width: 75%;
 }
 
 .form-group{
